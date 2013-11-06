@@ -21,7 +21,8 @@ public class BibleGestureListener extends SimpleOnGestureListener {
 	// measurements in dips for density independence
 	// TODO: final int swipeMinDistance = vc.getScaledTouchSlop();
 	// TODO: and other suggestions in http://stackoverflow.com/questions/937313/android-basic-gesture-detection
-	private static final int DISTANCE_DIP = 40;
+	// raoxy: modify DISTANCE_DIP from 40 to 80 to make more smooth
+	private static final int DISTANCE_DIP = 80;
 	private int scaledMinimumDistance;
 	
 	private int minScaledVelocity;
